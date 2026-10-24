@@ -1,0 +1,685 @@
+{
+ "files": {
+  "reviews_0-250.csv": {
+   "rows": 602130,
+   "cols": 19,
+   "idx_min": 0,
+   "idx_max": 602129
+  },
+  "reviews_1250-end.csv": {
+   "rows": 49977,
+   "cols": 19,
+   "idx_min": 0,
+   "idx_max": 49976
+  },
+  "reviews_250-500_1.csv": {
+   "rows": 206725,
+   "cols": 19,
+   "idx_min": 0,
+   "idx_max": 206724
+  },
+  "reviews_500-750_1.csv": {
+   "rows": 116262,
+   "cols": 19,
+   "idx_min": 0,
+   "idx_max": 116261
+  },
+  "reviews_750-1250_1.csv": {
+   "rows": 119317,
+   "cols": 19,
+   "idx_min": 0,
+   "idx_max": 119316
+  }
+ },
+ "total_rows": 1094411,
+ "dup_full_excl_index": 224,
+ "dup_index_cross": 492281,
+ "missing": {
+  "helpfulness": 561592,
+  "review_title": 310654,
+  "hair_color": 226768,
+  "eye_color": 209628,
+  "skin_tone": 170539,
+  "is_recommended": 167988,
+  "skin_type": 111557,
+  "review_text": 1444,
+  "brand_name": 0,
+  "author_id": 0,
+  "rating": 0,
+  "product_name": 0,
+  "product_id": 0,
+  "price_usd": 0,
+  "submission_time": 0,
+  "total_feedback_count": 0,
+  "total_neg_feedback_count": 0,
+  "total_pos_feedback_count": 0
+ },
+ "dtypes_note": "see notebook",
+ "unique_products": 2351,
+ "unique_brands": 142,
+ "unique_authors": 503216,
+ "prod_info_shape": [
+  8494,
+  27
+ ],
+ "prod_info_cols": [
+  "product_id",
+  "product_name",
+  "brand_id",
+  "brand_name",
+  "loves_count",
+  "rating",
+  "reviews",
+  "size",
+  "variation_type",
+  "variation_value",
+  "variation_desc",
+  "ingredients",
+  "price_usd",
+  "value_price_usd",
+  "sale_price_usd",
+  "limited_edition",
+  "new",
+  "online_only",
+  "out_of_stock",
+  "sephora_exclusive",
+  "highlights",
+  "primary_category",
+  "secondary_category",
+  "tertiary_category",
+  "child_count",
+  "child_max_price",
+  "child_min_price"
+ ],
+ "review_products_not_in_info": 0,
+ "prod_dup_ids": 0,
+ "rating_counts": {
+  "1": 61223,
+  "2": 53032,
+  "3": 81816,
+  "4": 199389,
+  "5": 698951
+ },
+ "rating_mean": 4.299158177320952,
+ "rec_counts": {
+  "1.0": 778160,
+  "0.0": 148263,
+  "NaN": 167988
+ },
+ "rec_missing": 167988,
+ "rec_by_rating": {
+  "1": {
+   "n": 61223,
+   "rec": 406,
+   "known": 52493,
+   "rate": 0.007734364581944259
+  },
+  "2": {
+   "n": 53032,
+   "rec": 1660,
+   "known": 45262,
+   "rate": 0.036675356811453313
+  },
+  "3": {
+   "n": 81816,
+   "rec": 25459,
+   "known": 71395,
+   "rate": 0.35659359899152604
+  },
+  "4": {
+   "n": 199389,
+   "rec": 164351,
+   "known": 170192,
+   "rate": 0.9656799379524302
+  },
+  "5": {
+   "n": 698951,
+   "rec": 586284,
+   "known": 587081,
+   "rate": 0.9986424360522653
+  }
+ },
+ "chi2": [
+  741794.0520516154,
+  0.0
+ ],
+ "spearman_rating_rec": 0.716250380259964,
+ "sample_rating": {
+  "1": 85,
+  "2": 83,
+  "3": 84,
+  "4": 144,
+  "5": 604
+ },
+ "sample_rec": {
+  "1": {
+   "n": 85,
+   "rec": 0,
+   "rate": 0.0
+  },
+  "2": {
+   "n": 83,
+   "rec": 3,
+   "rate": 0.03614457831325301
+  },
+  "3": {
+   "n": 84,
+   "rec": 23,
+   "rate": 0.27380952380952384
+  },
+  "4": {
+   "n": 144,
+   "rec": 135,
+   "rate": 0.9375
+  },
+  "5": {
+   "n": 604,
+   "rec": 604,
+   "rate": 1.0
+  }
+ },
+ "sample_brands": {
+  "LANEIGE": 999,
+  "NUDESTIX": 1
+ },
+ "sample_brand_mean": {
+  "LANEIGE": 4.098,
+  "NUDESTIX": 5.0
+ },
+ "sample_missing": {
+  "helpfulness": 199,
+  "review_title": 243,
+  "skin_tone": 223,
+  "eye_color": 120,
+  "skin_type": 102,
+  "hair_color": 258
+ },
+ "sample_products": 2,
+ "brand_top_n": {
+  "CLINIQUE": {
+   "n": 49029,
+   "mean": 4.25,
+   "rec": 0.834
+  },
+  "Tatcha": {
+   "n": 46770,
+   "mean": 4.241,
+   "rec": 0.813
+  },
+  "Drunk Elephant": {
+   "n": 42395,
+   "mean": 4.085,
+   "rec": 0.767
+  },
+  "fresh": {
+   "n": 40886,
+   "mean": 4.377,
+   "rec": 0.865
+  },
+  "The Ordinary": {
+   "n": 35934,
+   "mean": 4.212,
+   "rec": 0.819
+  },
+  "Glow Recipe": {
+   "n": 31490,
+   "mean": 4.315,
+   "rec": 0.838
+  },
+  "Youth To The People": {
+   "n": 29154,
+   "mean": 4.282,
+   "rec": 0.82
+  },
+  "Origins": {
+   "n": 29063,
+   "mean": 4.36,
+   "rec": 0.866
+  },
+  "Peter Thomas Roth": {
+   "n": 28846,
+   "mean": 4.316,
+   "rec": 0.848
+  },
+  "LANEIGE": {
+   "n": 27519,
+   "mean": 4.373,
+   "rec": 0.844
+  }
+ },
+ "brand_n1000": 95,
+ "brand_lowest": {
+  "Topicals": {
+   "n": 1838,
+   "mean": 3.661,
+   "rec": 0.686
+  },
+  "Isle of Paradise": {
+   "n": 5985,
+   "mean": 3.86,
+   "rec": 0.735
+  },
+  "FOREO": {
+   "n": 1143,
+   "mean": 3.891,
+   "rec": 0.753
+  },
+  "Community Sixty-Six": {
+   "n": 1018,
+   "mean": 3.917,
+   "rec": 0.758
+  },
+  "ILIA": {
+   "n": 1095,
+   "mean": 3.965,
+   "rec": 0.769
+  }
+ },
+ "brand_highest": {
+  "FaceGym": {
+   "n": 1013,
+   "mean": 4.663,
+   "rec": 0.944
+  },
+  "Benefit Cosmetics": {
+   "n": 3536,
+   "mean": 4.669,
+   "rec": 0.955
+  },
+  "Jack Black": {
+   "n": 3658,
+   "mean": 4.679,
+   "rec": 0.911
+  },
+  "Dr. Lara Devgan Scientific Beauty": {
+   "n": 1421,
+   "mean": 4.716,
+   "rec": 0.928
+  },
+  "DAMDAM": {
+   "n": 1128,
+   "mean": 4.739,
+   "rec": 0.957
+  }
+ },
+ "prod_n_median": 164.0,
+ "prod_n_max": 16138,
+ "prod_ge100": 1394,
+ "prod_n500": 578,
+ "prod_lowest": [
+  {
+   "product_id": "P460855",
+   "product_name": "Clean Lip Balm & Scrub",
+   "brand_name": "SEPHORA COLLECTION",
+   "n": 611,
+   "mean": 2.28,
+   "rec": 0.301
+  },
+  {
+   "product_id": "P460723",
+   "product_name": "Clean Cleansing & Gentle Exfoliating Wipes",
+   "brand_name": "SEPHORA COLLECTION",
+   "n": 524,
+   "mean": 2.563,
+   "rec": 0.378
+  },
+  {
+   "product_id": "P443841",
+   "product_name": "Vitamin C Brightening Cream",
+   "brand_name": "The INKEY List",
+   "n": 518,
+   "mean": 3.031,
+   "rec": 0.508
+  },
+  {
+   "product_id": "P442857",
+   "product_name": "Focuspot Micro Tip Patches",
+   "brand_name": "Dr. Jart+",
+   "n": 579,
+   "mean": 3.041,
+   "rec": 0.504
+  },
+  {
+   "product_id": "P419221",
+   "product_name": "Umbra Tinte Physical Daily Defense SPF 30",
+   "brand_name": "Drunk Elephant",
+   "n": 845,
+   "mean": 3.298,
+   "rec": 0.521
+  }
+ ],
+ "prod_highest": [
+  {
+   "product_id": "P500240",
+   "product_name": "Daily Milkfoliant Exfoliator",
+   "brand_name": "Dermalogica",
+   "n": 561,
+   "mean": 4.79,
+   "rec": 0.971
+  },
+  {
+   "product_id": "P479841",
+   "product_name": "Floral Recovery Overnight Mask with Squalane",
+   "brand_name": "fresh",
+   "n": 1128,
+   "mean": 4.797,
+   "rec": 0.975
+  },
+  {
+   "product_id": "P483679",
+   "product_name": "Truth Barrier Booster Orange Ferment Vitamin C Essence",
+   "brand_name": "OLEHENRIKSEN",
+   "n": 602,
+   "mean": 4.814,
+   "rec": 0.973
+  },
+  {
+   "product_id": "P173726",
+   "product_name": "Facial Cotton",
+   "brand_name": "Shiseido",
+   "n": 2827,
+   "mean": 4.828,
+   "rec": 0.953
+  },
+  {
+   "product_id": "P503936",
+   "product_name": "Black Tea Anti-Aging Moisturizer with Retinol-Alternative BT Matrix",
+   "brand_name": "fresh",
+   "n": 1389,
+   "mean": 4.844,
+   "rec": 0.984
+  }
+ ],
+ "price_desc": {
+  "count": 8494.0,
+  "mean": 51.66,
+  "std": 53.67,
+  "min": 3.0,
+  "25%": 25.0,
+  "50%": 35.0,
+  "75%": 58.0,
+  "max": 1900.0
+ },
+ "price_band": {
+  "<=25": {
+   "n": 277686,
+   "mean": 4.263,
+   "rec": 0.818
+  },
+  "25-50": {
+   "n": 437229,
+   "mean": 4.304,
+   "rec": 0.841
+  },
+  "50-100": {
+   "n": 319904,
+   "mean": 4.329,
+   "rec": 0.858
+  },
+  ">100": {
+   "n": 59592,
+   "mean": 4.267,
+   "rec": 0.838
+  }
+ },
+ "price_corr_review_level": 0.007851298472623811,
+ "by_skin_type": {
+  "combination": {
+   "n": 544513,
+   "mean": 4.309
+  },
+  "dry": {
+   "n": 185937,
+   "mean": 4.291
+  },
+  "normal": {
+   "n": 131910,
+   "mean": 4.282
+  },
+  "oily": {
+   "n": 120494,
+   "mean": 4.271
+  }
+ },
+ "by_skin_tone": {
+  "light": {
+   "n": 266418,
+   "mean": 4.301
+  },
+  "fair": {
+   "n": 208034,
+   "mean": 4.274
+  },
+  "lightMedium": {
+   "n": 196541,
+   "mean": 4.319
+  },
+  "medium": {
+   "n": 70486,
+   "mean": 4.331
+  },
+  "mediumTan": {
+   "n": 62456,
+   "mean": 4.282
+  },
+  "fairLight": {
+   "n": 56228,
+   "mean": 4.255
+  },
+  "tan": {
+   "n": 33678,
+   "mean": 4.284
+  },
+  "deep": {
+   "n": 20601,
+   "mean": 4.256
+  }
+ },
+ "by_eye_color": {
+  "brown": {
+   "n": 471181,
+   "mean": 4.298
+  },
+  "blue": {
+   "n": 172022,
+   "mean": 4.297
+  },
+  "hazel": {
+   "n": 118194,
+   "mean": 4.299
+  },
+  "green": {
+   "n": 117906,
+   "mean": 4.295
+  },
+  "Grey": {
+   "n": 4859,
+   "mean": 4.135
+  },
+  "gray": {
+   "n": 621,
+   "mean": 4.209
+  }
+ },
+ "by_hair_color": {
+  "brown": {
+   "n": 403099,
+   "mean": 4.286
+  },
+  "blonde": {
+   "n": 203255,
+   "mean": 4.317
+  },
+  "black": {
+   "n": 188404,
+   "mean": 4.275
+  },
+  "auburn": {
+   "n": 31146,
+   "mean": 4.325
+  },
+  "red": {
+   "n": 25777,
+   "mean": 4.295
+  },
+  "brunette": {
+   "n": 10541,
+   "mean": 4.227
+  },
+  "gray": {
+   "n": 5421,
+   "mean": 4.305
+  }
+ },
+ "date_min": "2008-08-28",
+ "date_max": "2023-03-21",
+ "neg_total": 114255,
+ "neg_n": 114061,
+ "five_star_text_n": 697943,
+ "themes_neg": {
+  "breakout / acne": [
+   24946,
+   21.9
+  ],
+  "irritation / burning / rash": [
+   15971,
+   14.0
+  ],
+  "dryness / oiliness / heavy feel": [
+   37101,
+   32.5
+  ],
+  "no visible effect": [
+   14629,
+   12.8
+  ],
+  "smell / fragrance": [
+   24632,
+   21.6
+  ],
+  "price / value": [
+   16774,
+   14.7
+  ],
+  "packaging / leaking / pump": [
+   14335,
+   12.6
+  ],
+  "pilling / flaking / residue": [
+   7114,
+   6.2
+  ]
+ },
+ "themes_pos_pct": {
+  "breakout / acne": 16.2,
+  "irritation / burning / rash": 11.6,
+  "dryness / oiliness / heavy feel": 34.5,
+  "no visible effect": 0.5,
+  "smell / fragrance": 22.5,
+  "price / value": 11.3,
+  "packaging / leaking / pump": 5.9,
+  "pilling / flaking / residue": 4.1
+ },
+ "neg_words": [
+  [
+   "skin",
+   104958
+  ],
+  [
+   "face",
+   38647
+  ],
+  [
+   "using",
+   27653
+  ],
+  [
+   "didn",
+   26421
+  ],
+  [
+   "dry",
+   23249
+  ],
+  [
+   "don",
+   20093
+  ],
+  [
+   "love",
+   17243
+  ],
+  [
+   "made",
+   15984
+  ],
+  [
+   "good",
+   15381
+  ],
+  [
+   "feel",
+   15223
+  ],
+  [
+   "much",
+   14614
+  ],
+  [
+   "smell",
+   14397
+  ],
+  [
+   "off",
+   13942
+  ],
+  [
+   "work",
+   13917
+  ],
+  [
+   "doesn",
+   13688
+  ],
+  [
+   "sensitive",
+   13339
+  ],
+  [
+   "oily",
+   13305
+  ],
+  [
+   "acne",
+   13292
+  ],
+  [
+   "tried",
+   13269
+  ],
+  [
+   "try",
+   12889
+  ],
+  [
+   "wanted",
+   12464
+  ],
+  [
+   "cream",
+   12439
+  ],
+  [
+   "moisturizer",
+   11983
+  ],
+  [
+   "time",
+   11768
+  ],
+  [
+   "first",
+   11587
+  ]
+ ]
+}

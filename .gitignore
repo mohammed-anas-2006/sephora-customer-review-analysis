@@ -1,0 +1,4 @@
+# The Kaggle CSV files are large and are not included. Download them from Kaggle and place them in data/
+data/
+__pycache__/
+.ipynb_checkpoints/
