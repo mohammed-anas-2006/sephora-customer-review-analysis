@@ -1,4 +1,10 @@
-# The Kaggle CSV files are large and are not included. Download them from Kaggle and place them in data/
+# Raw Kaggle CSV files are large and subject to the dataset licence: download them yourself into data/
 data/
+data_processed/
+# Never commit credentials
+.env
+*.key
+secrets.*
+# Python / Jupyter
 __pycache__/
 .ipynb_checkpoints/
