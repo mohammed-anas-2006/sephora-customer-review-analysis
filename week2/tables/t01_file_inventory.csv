@@ -1,0 +1,7 @@
+file,size_mb,rows,columns,role
+reviews_0-250.csv,282.3,602130,19,customer reviews
+reviews_1250-end.csv,24.2,49977,19,customer reviews
+reviews_250-500_1.csv,100.3,206725,19,customer reviews
+reviews_500-750_1.csv,56.3,116262,19,customer reviews
+reviews_750-1250_1.csv,58.0,119317,19,customer reviews
+product_info.csv,7.9,8494,27,product catalogue

@@ -1,0 +1,569 @@
+{
+ "N": 1094411,
+ "same_schema_all_review_files": true,
+ "inventory": [
+  {
+   "file": "reviews_0-250.csv",
+   "size_mb": 282.3,
+   "rows": 602130,
+   "columns": 19,
+   "role": "customer reviews"
+  },
+  {
+   "file": "reviews_1250-end.csv",
+   "size_mb": 24.2,
+   "rows": 49977,
+   "columns": 19,
+   "role": "customer reviews"
+  },
+  {
+   "file": "reviews_250-500_1.csv",
+   "size_mb": 100.3,
+   "rows": 206725,
+   "columns": 19,
+   "role": "customer reviews"
+  },
+  {
+   "file": "reviews_500-750_1.csv",
+   "size_mb": 56.3,
+   "rows": 116262,
+   "columns": 19,
+   "role": "customer reviews"
+  },
+  {
+   "file": "reviews_750-1250_1.csv",
+   "size_mb": 58.0,
+   "rows": 119317,
+   "columns": 19,
+   "role": "customer reviews"
+  },
+  {
+   "file": "product_info.csv",
+   "size_mb": 7.9,
+   "rows": 8494,
+   "columns": 27,
+   "role": "product catalogue"
+  }
+ ],
+ "total_size_mb": 529.0,
+ "missing_reviews": {
+  "helpfulness": {
+   "missing": 561592,
+   "percent": 51.31
+  },
+  "review_title": {
+   "missing": 310654,
+   "percent": 28.39
+  },
+  "hair_color": {
+   "missing": 226768,
+   "percent": 20.72
+  },
+  "eye_color": {
+   "missing": 209628,
+   "percent": 19.15
+  },
+  "skin_tone": {
+   "missing": 170539,
+   "percent": 15.58
+  },
+  "is_recommended": {
+   "missing": 167988,
+   "percent": 15.35
+  },
+  "skin_type": {
+   "missing": 111557,
+   "percent": 10.19
+  },
+  "review_text": {
+   "missing": 1444,
+   "percent": 0.13
+  },
+  "brand_name": {
+   "missing": 0,
+   "percent": 0.0
+  },
+  "author_id": {
+   "missing": 0,
+   "percent": 0.0
+  },
+  "rating": {
+   "missing": 0,
+   "percent": 0.0
+  },
+  "product_name": {
+   "missing": 0,
+   "percent": 0.0
+  },
+  "product_id": {
+   "missing": 0,
+   "percent": 0.0
+  },
+  "price_usd": {
+   "missing": 0,
+   "percent": 0.0
+  },
+  "submission_time": {
+   "missing": 0,
+   "percent": 0.0
+  },
+  "total_feedback_count": {
+   "missing": 0,
+   "percent": 0.0
+  },
+  "total_neg_feedback_count": {
+   "missing": 0,
+   "percent": 0.0
+  },
+  "total_pos_feedback_count": {
+   "missing": 0,
+   "percent": 0.0
+  }
+ },
+ "missing_product_info": {
+  "sale_price_usd": {
+   "missing": 8224,
+   "percent": 96.82
+  },
+  "value_price_usd": {
+   "missing": 8043,
+   "percent": 94.69
+  },
+  "variation_desc": {
+   "missing": 7244,
+   "percent": 85.28
+  },
+  "child_max_price": {
+   "missing": 5740,
+   "percent": 67.58
+  },
+  "child_min_price": {
+   "missing": 5740,
+   "percent": 67.58
+  },
+  "highlights": {
+   "missing": 2207,
+   "percent": 25.98
+  },
+  "size": {
+   "missing": 1631,
+   "percent": 19.2
+  },
+  "variation_value": {
+   "missing": 1598,
+   "percent": 18.81
+  },
+  "variation_type": {
+   "missing": 1444,
+   "percent": 17.0
+  },
+  "tertiary_category": {
+   "missing": 990,
+   "percent": 11.66
+  },
+  "ingredients": {
+   "missing": 945,
+   "percent": 11.13
+  },
+  "reviews": {
+   "missing": 278,
+   "percent": 3.27
+  },
+  "rating": {
+   "missing": 278,
+   "percent": 3.27
+  },
+  "secondary_category": {
+   "missing": 8,
+   "percent": 0.09
+  }
+ },
+ "review_text_empty_strings": 1444,
+ "review_text_missing": 1444,
+ "exact_duplicate_rows_ex_counter": 224,
+ "authors": 503216,
+ "author_product_extra_reviews": 5525,
+ "reviews_per_author": {
+  "median": 1.0,
+  "max": 292,
+  "authors_with_1": 292748,
+  "authors_ge10": 9387,
+  "share_reviews_by_authors_ge10": 16.44
+ },
+ "product_id_unique_in_catalogue": true,
+ "validity": {
+  "rating_outside_1_5": 0,
+  "is_recommended_values": {
+   "1.0": 778160,
+   "nan": 167988,
+   "0.0": 148263
+  },
+  "helpfulness_outside_0_1": 0,
+  "negative_feedback_counts": 0,
+  "price_nonpositive_or_missing_reviews": 0,
+  "price_nonpositive_or_missing_catalogue": 0,
+  "unparseable_dates": 0,
+  "date_min": "2008-08-28",
+  "date_max": "2023-03-21",
+  "total_feedback_ne_pos_plus_neg": 0,
+  "helpfulness_present_when_feedback_zero": 0,
+  "helpfulness_missing_when_feedback_positive": 0,
+  "helpfulness_matches_pos_share_pct": 100.0,
+  "share_reviews_zero_feedback_pct": 51.31,
+  "author_id_non_numeric_rows": 64,
+  "author_id_non_numeric_distinct": 21,
+  "author_id_non_numeric_examples": [
+   "orderGen1221842",
+   "orderGen1698648",
+   "orderGen51156",
+   "dummyUser"
+  ],
+  "author_id_non_numeric_prefixes": {
+   "orderGen": 60,
+   "dummyUser": 4
+  }
+ },
+ "consistency": {
+  "skin_type": {
+   "combination": 544513,
+   "dry": 185937,
+   "normal": 131910,
+   "oily": 120494
+  },
+  "skin_tone": {
+   "light": 266418,
+   "fair": 208034,
+   "lightMedium": 196541,
+   "medium": 70486,
+   "mediumTan": 62456,
+   "fairLight": 56228,
+   "tan": 33678,
+   "deep": 20601,
+   "rich": 5493,
+   "olive": 1730,
+   "porcelain": 1612,
+   "dark": 522,
+   "notSureST": 70,
+   "ebony": 3
+  },
+  "eye_color": {
+   "brown": 471181,
+   "blue": 172022,
+   "hazel": 118194,
+   "green": 117906,
+   "Grey": 4859,
+   "gray": 621
+  },
+  "hair_color": {
+   "brown": 403099,
+   "blonde": 203255,
+   "black": 188404,
+   "auburn": 31146,
+   "red": 25777,
+   "brunette": 10541,
+   "gray": 5421
+  },
+  "eye_color_case_insensitive_n": 6,
+  "eye_color_raw_n": 6,
+  "brand_names_raw": 142,
+  "brand_names_normalised_casefold": 142,
+  "products_with_multiple_names": 0,
+  "products_with_multiple_brands": 0,
+  "products_with_multiple_prices_in_reviews": 0,
+  "product_names_shared_by_multiple_ids": 17,
+  "review_price_differs_from_catalogue_price": 0,
+  "products_compared_price": 2351
+ },
+ "review_products": 2351,
+ "review_products_not_in_catalogue": 0,
+ "catalogue_products": 8494,
+ "catalogue_products_without_reviews": 6143,
+ "brands_in_reviews": 142,
+ "brands_in_catalogue": 304,
+ "category_coverage": {
+  "Bath & Body": {
+   "catalogue_products": 405,
+   "reviewed_products": 0,
+   "reviews": 0,
+   "share_of_reviews_pct": 0.0,
+   "share_of_catalogue_pct": 4.77
+  },
+  "Fragrance": {
+   "catalogue_products": 1432,
+   "reviewed_products": 0,
+   "reviews": 0,
+   "share_of_reviews_pct": 0.0,
+   "share_of_catalogue_pct": 16.86
+  },
+  "Gifts": {
+   "catalogue_products": 4,
+   "reviewed_products": 0,
+   "reviews": 0,
+   "share_of_reviews_pct": 0.0,
+   "share_of_catalogue_pct": 0.05
+  },
+  "Hair": {
+   "catalogue_products": 1464,
+   "reviewed_products": 0,
+   "reviews": 0,
+   "share_of_reviews_pct": 0.0,
+   "share_of_catalogue_pct": 17.24
+  },
+  "Makeup": {
+   "catalogue_products": 2369,
+   "reviewed_products": 0,
+   "reviews": 0,
+   "share_of_reviews_pct": 0.0,
+   "share_of_catalogue_pct": 27.89
+  },
+  "Men": {
+   "catalogue_products": 60,
+   "reviewed_products": 0,
+   "reviews": 0,
+   "share_of_reviews_pct": 0.0,
+   "share_of_catalogue_pct": 0.71
+  },
+  "Mini Size": {
+   "catalogue_products": 288,
+   "reviewed_products": 0,
+   "reviews": 0,
+   "share_of_reviews_pct": 0.0,
+   "share_of_catalogue_pct": 3.39
+  },
+  "Skincare": {
+   "catalogue_products": 2420,
+   "reviewed_products": 2351,
+   "reviews": 1094411,
+   "share_of_reviews_pct": 100.0,
+   "share_of_catalogue_pct": 28.49
+  },
+  "Tools & Brushes": {
+   "catalogue_products": 52,
+   "reviewed_products": 0,
+   "reviews": 0,
+   "share_of_reviews_pct": 0.0,
+   "share_of_catalogue_pct": 0.61
+  }
+ },
+ "reviews_per_product": {
+  "count": 2351.0,
+  "mean": 465.5,
+  "std": 889.5,
+  "min": 1.0,
+  "10%": 10.0,
+  "25%": 37.0,
+  "50%": 164.0,
+  "75%": 488.5,
+  "90%": 1197.0,
+  "99%": 4403.0,
+  "max": 16138.0
+ },
+ "products_lt_10_reviews": 229,
+ "products_ge_100_reviews": 1394,
+ "products_ge_1000_reviews": 302,
+ "top10_products_share_pct": 7.23,
+ "brands_ge_1000_reviews": 95,
+ "top10_brands_share_pct": 32.99,
+ "largest_brand": [
+  "CLINIQUE",
+  49029
+ ],
+ "count_check": {
+  "products_compared": 2351,
+  "listed_total": 1090564,
+  "files_total": 1094411,
+  "share_files_of_listed_pct": 100.35,
+  "products_files_exceed_listed": 782,
+  "products_files_equal_listed": 1568,
+  "products_files_below_listed": 1,
+  "median_ratio_files_to_listed": 1.0,
+  "mean_abs_diff_rating": 0.01,
+  "median_abs_diff_rating": 0.0,
+  "spearman_counts": 0.9987,
+  "products_without_listed_values": 0
+ },
+ "by_year": {
+  "2008": {
+   "reviews": 2761,
+   "mean_rating": 4.4531,
+   "median_rating": 5.0,
+   "rec_rate": null,
+   "rec_missing_share": 1.0
+  },
+  "2009": {
+   "reviews": 9709,
+   "mean_rating": 4.4581,
+   "median_rating": 5.0,
+   "rec_rate": null,
+   "rec_missing_share": 1.0
+  },
+  "2010": {
+   "reviews": 13485,
+   "mean_rating": 4.4574,
+   "median_rating": 5.0,
+   "rec_rate": null,
+   "rec_missing_share": 1.0
+  },
+  "2011": {
+   "reviews": 12417,
+   "mean_rating": 4.4499,
+   "median_rating": 5.0,
+   "rec_rate": null,
+   "rec_missing_share": 1.0
+  },
+  "2012": {
+   "reviews": 11800,
+   "mean_rating": 4.4459,
+   "median_rating": 5.0,
+   "rec_rate": null,
+   "rec_missing_share": 1.0
+  },
+  "2013": {
+   "reviews": 15621,
+   "mean_rating": 4.3976,
+   "median_rating": 5.0,
+   "rec_rate": null,
+   "rec_missing_share": 1.0
+  },
+  "2014": {
+   "reviews": 18224,
+   "mean_rating": 4.3204,
+   "median_rating": 5.0,
+   "rec_rate": null,
+   "rec_missing_share": 1.0
+  },
+  "2015": {
+   "reviews": 21590,
+   "mean_rating": 4.2689,
+   "median_rating": 5.0,
+   "rec_rate": null,
+   "rec_missing_share": 1.0
+  },
+  "2016": {
+   "reviews": 33137,
+   "mean_rating": 4.3038,
+   "median_rating": 5.0,
+   "rec_rate": null,
+   "rec_missing_share": 1.0
+  },
+  "2017": {
+   "reviews": 54592,
+   "mean_rating": 4.3541,
+   "median_rating": 5.0,
+   "rec_rate": 0.8716,
+   "rec_missing_share": 0.5349
+  },
+  "2018": {
+   "reviews": 97996,
+   "mean_rating": 4.3444,
+   "median_rating": 5.0,
+   "rec_rate": 0.8486,
+   "rec_missing_share": 0.0
+  },
+  "2019": {
+   "reviews": 143860,
+   "mean_rating": 4.2409,
+   "median_rating": 5.0,
+   "rec_rate": 0.8248,
+   "rec_missing_share": 0.0
+  },
+  "2020": {
+   "reviews": 215449,
+   "mean_rating": 4.2074,
+   "median_rating": 5.0,
+   "rec_rate": 0.8189,
+   "rec_missing_share": 0.0
+  },
+  "2021": {
+   "reviews": 202012,
+   "mean_rating": 4.3215,
+   "median_rating": 5.0,
+   "rec_rate": 0.8487,
+   "rec_missing_share": 0.0
+  },
+  "2022": {
+   "reviews": 192227,
+   "mean_rating": 4.3384,
+   "median_rating": 5.0,
+   "rec_rate": 0.8572,
+   "rec_missing_share": 0.0
+  },
+  "2023": {
+   "reviews": 49531,
+   "mean_rating": 4.2898,
+   "median_rating": 5.0,
+   "rec_rate": 0.8398,
+   "rec_missing_share": 0.0008
+  }
+ },
+ "months_with_reviews": 176,
+ "peak_month": [
+  "2020-04",
+  23924
+ ],
+ "share_reviews_2020_onward_pct": 60.24,
+ "share_reviews_before_2015_pct": 7.68,
+ "rating_stats": {
+  "mean": 4.299158177320952,
+  "median": 5.0,
+  "mode": 5,
+  "sd": 1.1494435956220745,
+  "skewness": -1.6769437678762047,
+  "min": 1,
+  "max": 5,
+  "counts": {
+   "1": 61223,
+   "2": 53032,
+   "3": 81816,
+   "4": 199389,
+   "5": 698951
+  },
+  "pct": {
+   "1": 5.59,
+   "2": 4.85,
+   "3": 7.48,
+   "4": 18.22,
+   "5": 63.87
+  }
+ },
+ "rating_by_rec_status": {
+  "1": {
+   "not recommended": 52087,
+   "not recorded": 8730,
+   "recommended": 406
+  },
+  "2": {
+   "not recommended": 43602,
+   "not recorded": 7770,
+   "recommended": 1660
+  },
+  "3": {
+   "not recommended": 45936,
+   "not recorded": 10421,
+   "recommended": 25459
+  },
+  "4": {
+   "not recommended": 5841,
+   "not recorded": 29197,
+   "recommended": 164351
+  },
+  "5": {
+   "not recommended": 797,
+   "not recorded": 111870,
+   "recommended": 586284
+  }
+ },
+ "rec_missing_share_by_rating_pct": {
+  "1": 14.26,
+  "2": 14.65,
+  "3": 12.74,
+  "4": 14.64,
+  "5": 16.01
+ },
+ "rec_counts": {
+  "recommended": 778160,
+  "not_recommended": 148263,
+  "missing": 167988
+ },
+ "rec_rate_among_recorded_pct": 84.0
+}

@@ -1,0 +1,279 @@
+{
+ "sample_n": 99867,
+ "label_share_pct": {
+  "positive": 81.97,
+  "negative": 10.47,
+  "neutral": 7.56
+ },
+ "train_n": 79810,
+ "test_n": 20057,
+ "author_overlap_train_test": 0,
+ "test_label_share_pct": {
+  "positive": 81.82,
+  "negative": 10.5,
+  "neutral": 7.69
+ },
+ "baseline_majority": {
+  "accuracy": 0.8181682205713716,
+  "macro_f1": 0.29999725779471853,
+  "per_class": {
+   "negative": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 2105.0
+   },
+   "neutral": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1542.0
+   },
+   "positive": {
+    "precision": 0.8181682205713716,
+    "recall": 1.0,
+    "f1-score": 0.8999917733841556,
+    "support": 16410.0
+   }
+  },
+  "confusion": [
+   [
+    0,
+    0,
+    2105
+   ],
+   [
+    0,
+    0,
+    1542
+   ],
+   [
+    0,
+    0,
+    16410
+   ]
+  ]
+ },
+ "vader": {
+  "accuracy": 0.8121852719748717,
+  "macro_f1": 0.45212920251625177,
+  "per_class": {
+   "negative": {
+    "precision": 0.4728682170542636,
+    "recall": 0.3477434679334917,
+    "f1-score": 0.4007664932931837,
+    "support": 2105.0
+   },
+   "neutral": {
+    "precision": 0.10646387832699619,
+    "recall": 0.03631647211413749,
+    "f1-score": 0.05415860735009671,
+    "support": 1542.0
+   },
+   "positive": {
+    "precision": 0.8620363676805872,
+    "recall": 0.9446678854357099,
+    "f1-score": 0.9014625069054749,
+    "support": 16410.0
+   }
+  },
+  "confusion": [
+   [
+    732,
+    159,
+    1214
+   ],
+   [
+    219,
+    56,
+    1267
+   ],
+   [
+    597,
+    311,
+    15502
+   ]
+  ]
+ },
+ "vader_seconds": 4.1,
+ "vader_spearman_with_rating": 0.3105579672748442,
+ "tfidf_logreg": {
+  "accuracy": 0.8761031061474797,
+  "macro_f1": 0.7062558707326122,
+  "per_class": {
+   "negative": {
+    "precision": 0.6890459363957597,
+    "recall": 0.7410926365795725,
+    "f1-score": 0.7141222247653926,
+    "support": 2105.0
+   },
+   "neutral": {
+    "precision": 0.38595706618962433,
+    "recall": 0.559662775616083,
+    "f1-score": 0.45685547908946533,
+    "support": 1542.0
+   },
+   "positive": {
+    "precision": 0.9737738638554991,
+    "recall": 0.9231566118220598,
+    "f1-score": 0.9477899083429787,
+    "support": 16410.0
+   }
+  },
+  "confusion": [
+   [
+    1560,
+    438,
+    107
+   ],
+   [
+    378,
+    863,
+    301
+   ],
+   [
+    326,
+    935,
+    15149
+   ]
+  ]
+ },
+ "logreg_seconds": 20.6,
+ "tfidf_nb": {
+  "accuracy": 0.8894151667746921,
+  "macro_f1": 0.6490954261358713,
+  "per_class": {
+   "negative": {
+    "precision": 0.78875849289685,
+    "recall": 0.6066508313539193,
+    "f1-score": 0.6858216970998926,
+    "support": 2105.0
+   },
+   "neutral": {
+    "precision": 0.5414012738853503,
+    "recall": 0.2204928664072633,
+    "f1-score": 0.31336405529953915,
+    "support": 1542.0
+   },
+   "positive": {
+    "precision": 0.9108366086468276,
+    "recall": 0.9885435709932968,
+    "f1-score": 0.9481005260081824,
+    "support": 16410.0
+   }
+  },
+  "confusion": [
+   [
+    1277,
+    174,
+    654
+   ],
+   [
+    268,
+    340,
+    934
+   ],
+   [
+    74,
+    114,
+    16222
+   ]
+  ]
+ },
+ "logreg_cv_macro_f1": {
+  "folds": [
+   0.7036,
+   0.7063,
+   0.7011
+  ],
+  "mean": 0.7036586464125185,
+  "sd": 0.002133721477708167
+ },
+ "top_terms": {
+  "negative": [
+   "disappointed",
+   "not",
+   "not worth",
+   "broke",
+   "worst",
+   "returning",
+   "two stars",
+   "nothing",
+   "returned",
+   "to love",
+   "no for",
+   "wouldn recommend",
+   "didn",
+   "disappointing",
+   "not recommend",
+   "awful",
+   "terrible",
+   "definitely not",
+   "horrible",
+   "instead",
+   "badly",
+   "sadly",
+   "nice but",
+   "unfortunately",
+   "very disappointed"
+  ],
+  "neutral": [
+   "however",
+   "but",
+   "three stars",
+   "to love",
+   "though",
+   "okay",
+   "special",
+   "ok",
+   "that said",
+   "just not",
+   "once week",
+   "average",
+   "stars",
+   "too sensitive",
+   "decent",
+   "any effect",
+   "it three",
+   "may have",
+   "out worse",
+   "won buy",
+   "noticed my",
+   "out little",
+   "effects",
+   "unfortunately",
+   "pros"
+  ],
+  "positive": [
+   "love",
+   "amazing",
+   "love this",
+   "great",
+   "perfect",
+   "without",
+   "soft",
+   "best",
+   "definitely",
+   "love it",
+   "highly",
+   "highly recommend",
+   "works",
+   "not too",
+   "smooth",
+   "skeptical",
+   "helps",
+   "hydrated",
+   "really like",
+   "excellent",
+   "recommend",
+   "glowing",
+   "not greasy",
+   "wonderful",
+   "gone"
+  ]
+ },
+ "vader_rating_disagreement": {
+  "low_rating_vader_positive_pct": 57.672209026128264,
+  "high_rating_vader_negative_pct": 3.6380255941499087
+ }
+}
